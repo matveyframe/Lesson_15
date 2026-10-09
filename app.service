@@ -1,0 +1,13 @@
+[Unit]
+Description= app_py
+After=network-online.target
+
+[Service]
+User=matvey
+Group=matvey
+WorkingDirectory=/home/matvey/home_works/lesson_15
+ExecStart=/home/matvey/home_works/lesson_15//venv/bin/python /home/matvey/home_works/lesson_15/app.py
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target
