@@ -14,11 +14,11 @@ Restart=Always
 [Install]
 WantedBy=multi-user.target
 ```
-
+![](https://github.com/matveyframe/Lesson_15/blob/main/Work_Directory.PNG "Logo Title Text 1")
 
 2)Создать директорию /var/www/static, в ней создать файлы index.html, style.js и Скачать лого nginx
 
-![](https://github.com/matveyframe/Lesson_14/blob/main/landing-status_result.PNG "Logo Title Text 1")
+![](https://github.com/matveyframe/Lesson_15/blob/main/Work_Directory.PNG "Logo Title Text 1")
 
 3)Настроить Nginx в качестве прокси для созданного в пп1,2 приложения
 <p>-nginx проксирует запросы на flask-бэкенд </p>
