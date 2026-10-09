@@ -5,8 +5,8 @@ After=network-online.target
 [Service]
 User=matvey
 Group=matvey
-WorkingDirectory=/home/matvey/home_works/lesson_15
-ExecStart=/home/matvey/home_works/lesson_15//venv/bin/python /home/matvey/home_works/lesson_15/app.py
+WorkingDirectory=/var/www/static
+ExecStart=/var/www/static/venv/bin/gunicorn --bind 127.0.0.1:8001 app:app
 Restart=Always
 
 [Install]
